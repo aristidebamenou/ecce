@@ -26,6 +26,7 @@ import {MatTabsModule} from "@angular/material/tabs";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatTreeModule} from "@angular/material/tree";
+import { MatMenuModule } from '@angular/material/menu';
 
 
 
@@ -69,7 +70,8 @@ const routes: Routes = [
     MatTabsModule,
     MatCardModule,
     MatGridListModule,
-    MatTreeModule
+    MatTreeModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

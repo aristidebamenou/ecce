@@ -27,6 +27,7 @@ import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatTreeModule} from "@angular/material/tree";
 import { MatMenuModule } from '@angular/material/menu';
+import { RelaxComponent } from './relax/relax.component';
 
 
 
@@ -39,7 +40,8 @@ const routes: Routes = [
   { path: 'program', component: ProgramComponent },
   { path: 'subscription', component: SubscriptionComponent },
   { path: 'blog', component: BlogComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'relax', component: RelaxComponent }
 ];
 
 @NgModule({
@@ -55,7 +57,8 @@ const routes: Routes = [
     HouseRulesComponent,
     BlogComponent,
     ProgramComponent,
-    SubscriptionComponent
+    SubscriptionComponent,
+    RelaxComponent
   ],
   imports: [
     BrowserModule,
